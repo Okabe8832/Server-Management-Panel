@@ -1,0 +1,29 @@
+node_modules
+dist
+target
+.DS_Store
+src-tauri/target
+*.log
+
+# Local runtime data and exported vault files
+vault.json
+settings.json
+backups/
+server-vault-*.json
+ssh-vault-*.json
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.mobileprovision
+
+# Packaged artifacts
+*.zip
+*.tar.gz
+*.dmg
+*.app
